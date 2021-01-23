@@ -19,7 +19,10 @@
   color: white;
   background-color: rgb(56, 19, 189);
 }
-
+a{
+  text-decoration:none;
+  color:#fff;
+}
 /* ------------------------- */
 .divS {
   position: relative;
