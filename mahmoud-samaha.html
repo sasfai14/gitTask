@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmoud Samaha</title>
+</head>
+<body style="text-align: center;">
+    <div class="head" style="margin: 100px auto;">
+        <h1>Welcome, I'm Mahmoud Samaha.</h1>
+    </div>
+    <div class="btn" style="margin: 30px auto;">
+        <button class="shwbtn" onclick="shwdet();">Click here</button>
+    </div>
+    <div class="details" style="margin: 20px auto;">
+        <h3 class="det"></h3>
+    </div>
+
+    <script>
+        var btndet = document.querySelector('.det');
+
+        function shwdet() {
+            btndet.innerHTML = 'This is part of <i><b>git task</b></i> - thank you'
+        }
+    </script>
+</body>
+</html>
