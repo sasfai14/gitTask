@@ -1,5 +1,5 @@
 function link() {
-  location.href = "/page1.html";
+  location.href = "/Sara.html";
 }
 
 
